@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'fernandoapeguero', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,63 +11,49 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
+    linkedin: 'fernandoapeguero',
+    twitter: '',
     facebook: '',
     dribbble: '',
     behance: '',
     medium: '',
-    dev: 'arifszn',
-    website: 'https://arifszn.github.io',
+    dev: '',
+    website: 'https://fernandoapeguero.github.io',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'fernandoapeguero@gmail.com',
   },
   skills: [
-    'PHP',
-    'Laravel',
     'JavaScript',
     'React.js',
     'Node.js',
-    'MySQL',
+    'PostgresSQL',
     'Git',
     'Docker',
+    'Kubernetes',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'HTML',
     'Bootstrap',
   ],
   experiences: [
     {
-      company: 'Monstarlab Bangladesh',
-      position: 'Backend Engineer II',
-      from: 'September 2021',
+      company: 'Udacity',
+      position: 'Udacity Mentors & Reviewers Opportunities',
+      from: 'May 2019',
       to: 'Present',
-    },
-    {
-      company: 'My Offer 360 Degree',
-      position: 'Web Application Developer',
-      from: 'July 2019',
-      to: 'August 2021',
-    },
+    }
   ],
   education: [
     {
-      institution: 'American International University-Bangladesh',
-      degree: 'Bachelor of Science',
-      from: '2015',
-      to: '2019',
+      institution: 'Udacity',
+      degree: 'Full Stack Web Developer',
+      from: '2020',
+      to: '2021',
     },
     {
-      institution: 'Cantonment College, Jessore',
-      degree: 'Higher Secondary Certificate (HSC)',
-      from: '2012',
-      to: '2014',
-    },
-    {
-      institution: 'Chowgacha Shahadat Pilot High School',
-      degree: 'Secondary School Certificate (SSC)',
-      from: '2007',
-      to: '2012',
+      institution: 'Udacity',
+      degree: 'Front End Web Developer',
+      from: '2017',
+      to: '2018',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
@@ -85,7 +71,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'corporate',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
