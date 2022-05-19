@@ -7,7 +7,7 @@ const config = {
     limit: 10, // How many projects to display.
     exclude: {
       forks:  true, // Forked projects will not be displayed if set to true.
-      projects: ['laravel-ecommerce'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['css-exercises', 'odin-recipes', 'git-test', 'challenge-repo', 'challenge-repo2',   ], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
@@ -17,7 +17,7 @@ const config = {
     dribbble: '',
     behance: '',
     medium: '',
-    dev: '',
+    dev: 'fernandoapeguero',
     website: 'https://fernandoapeguero.github.io',
     phone: '',
     email: 'fernandoapeguero@gmail.com',
@@ -26,6 +26,8 @@ const config = {
     'JavaScript',
     'React.js',
     'Node.js',
+    'MongoDB',
+    'GraphQL',
     'PostgresSQL',
     'Git',
     'Docker',
