@@ -61,7 +61,7 @@ const config = {
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn',
+    username: 'fernandoapeguero',
     limit: 3, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
