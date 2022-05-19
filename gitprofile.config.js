@@ -7,7 +7,7 @@ const config = {
     limit: 10, // How many projects to display.
     exclude: {
       forks:  true, // Forked projects will not be displayed if set to true.
-      projects: ['css-exercises', 'odin-recipes', 'git-test', 'challenge-repo', 'challenge-repo2',   ], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['css-exercises', 'odin-recipes', 'git-test', 'challenge-repo', 'challenge-repo2', 'catclicker', 'Number-Wizard-Repo',  ], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
